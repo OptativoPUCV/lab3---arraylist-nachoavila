@@ -6,3 +6,13 @@ Thu 30 Mar 2023 03:29:55 PM UTC:
  tests:  0|6
 total_score: 0/70
 8858a4a
+Thu 30 Mar 2023 03:35:46 PM UTC: 
+ arraylist.c | 1 +
+ 1 file changed, 1 insertion(+)
+In file included from test.c:5:
+arraylist.c: In function ‘createList’:
+arraylist.c:14:52: error: invalid operands to binary * (have ‘ArrayList’ {aka ‘struct ArrayList’} and ‘long unsigned int’)
+   14 |   ArrayList listAux = (ArrayList *) malloc(listAux * sizeof(ArrayList *));
+      |                                                    ^
+Compilation failed
+e15c5ec
