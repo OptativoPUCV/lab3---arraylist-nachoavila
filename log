@@ -16,3 +16,13 @@ arraylist.c:14:52: error: invalid operands to binary * (have ‘ArrayList’ {ak
       |                                                    ^
 Compilation failed
 e15c5ec
+Thu 30 Mar 2023 03:37:06 PM UTC: 
+ arraylist.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+arraylist.c: In function ‘createList’:
+arraylist.c:14:51: error: invalid operands to binary * (have ‘ArrayList *’ {aka ‘struct ArrayList *’} and ‘long unsigned int’)
+   14 |   ArrayList * listAux = (ArrayList)malloc(listAux * sizeof(ArrayList));
+      |                                                   ^
+Compilation failed
+1791065
