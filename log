@@ -26,3 +26,17 @@ arraylist.c:14:51: error: invalid operands to binary * (have ‘ArrayList *’ {
       |                                                   ^
 Compilation failed
 1791065
+Thu 30 Mar 2023 03:37:36 PM UTC: 
+ arraylist.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+arraylist.c: In function ‘createList’:
+arraylist.c:14:3: error: conversion to non-scalar type requested
+   14 |   ArrayList * listAux = (ArrayList)malloc(sizeof(ArrayList));
+      |   ^~~~~~~~~
+arraylist.c:14:15: error: unused variable ‘listAux’ [-Werror=unused-variable]
+   14 |   ArrayList * listAux = (ArrayList)malloc(sizeof(ArrayList));
+      |               ^~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+db9ab62
