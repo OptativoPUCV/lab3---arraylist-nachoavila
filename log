@@ -40,3 +40,13 @@ arraylist.c:14:15: error: unused variable ‘listAux’ [-Werror=unused-variable
 cc1: all warnings being treated as errors
 Compilation failed
 db9ab62
+Thu 30 Mar 2023 03:38:05 PM UTC: 
+ arraylist.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+arraylist.c: In function ‘createList’:
+arraylist.c:14:3: error: conversion to non-scalar type requested
+   14 |   ArrayList * listAux = (ArrayList)malloc(sizeof(listAux));
+      |   ^~~~~~~~~
+Compilation failed
+a2a09eb
