@@ -50,3 +50,9 @@ arraylist.c:14:3: error: conversion to non-scalar type requested
       |   ^~~~~~~~~
 Compilation failed
 a2a09eb
+Thu 30 Mar 2023 03:38:49 PM UTC: 
+ arraylist.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|6
+total_score: 0/70
+6a43d3a
