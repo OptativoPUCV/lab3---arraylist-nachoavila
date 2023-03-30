@@ -70,3 +70,14 @@ arraylist.c:17:17: error: assignment to ‘int’ from ‘void *’ makes intege
 cc1: all warnings being treated as errors
 Compilation failed
 cdb0b0e
+Thu 30 Mar 2023 03:51:39 PM UTC: 
+ arraylist.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+arraylist.c: In function ‘createList’:
+arraylist.c:17:17: error: assignment to ‘int’ from ‘void **’ makes integer from pointer without a cast [-Werror=int-conversion]
+   17 |   listAux->size = (void **)malloc(sizeof(void *));
+      |                 ^
+cc1: all warnings being treated as errors
+Compilation failed
+5f7ae72
