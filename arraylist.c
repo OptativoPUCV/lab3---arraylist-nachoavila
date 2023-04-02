@@ -51,6 +51,7 @@ void push(ArrayList * l, void * data, int i){
 } 
 
 void* pop(ArrayList * l, int i){
+  
     return NULL;
 }
 
@@ -66,5 +67,7 @@ int get_size(ArrayList * l){
 
 //remove elements
 void clean(ArrayList * l){
-    
+  l->data = NULL;
+  l->capacity = 0;
+  l->size = 0;
 }
